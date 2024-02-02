@@ -1,5 +1,5 @@
 /* Program 3
-Write a program to enter ten numbers in an array and orint the values of those cells whose subscripts are odd.
+Write a program to enter ten numbers in an array and print the values of those cells whose subscripts are odd.
 29/01/24 */
 
 import java.util.Scanner;
