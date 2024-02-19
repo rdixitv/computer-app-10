@@ -26,7 +26,6 @@ public class Program25 {
       System.out.println();
     }
     
-    System.out.println("Array: ");
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < m; j++)
         sum += arr[i][j];
