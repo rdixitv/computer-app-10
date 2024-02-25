@@ -1,5 +1,5 @@
 /* Program 15
-Write a program to initialize an alphanumeric character array of size 8 and print the contents of the array indescending order using selection sort.
+Write a program to initialize an alphanumeric character array of size 8 and print the contents of the array in descending order using selection sort.
 09/02/24 */
 
 public class Program15 {
@@ -11,7 +11,7 @@ public class Program15 {
     for (int i = 0; i < 8; i++) {
       pos = i;
       for (int j = i + 1; j < 8; j++)
-        if (arr[j] < arr[pos])
+        if (arr[j] > arr[pos])
           pos = j;
 
       tmp = arr[i];
