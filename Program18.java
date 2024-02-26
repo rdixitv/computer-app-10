@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Program18 {
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
-    int marks[] = new int[7], tmp, pos;
+    int marks[] = new int[7], tmp;
 
     for (int i = 0; i < 7; i++) {
       System.out.print("Enter marks " + (i + 1) + ": ");
