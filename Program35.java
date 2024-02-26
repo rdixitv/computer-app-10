@@ -1,36 +1,41 @@
 /* Program 35
-Write a program using a menu to add subtract and divide 2 numbers.
+Write a program using a menu to add, subtract, multiply and divide 2 numbers.
 24/2/23 */
 
 import java.util.Scanner;
 public class Program35 {
   public static void main(String[] args) {
+    operate();
+ } 
+
+  static void operate() {
     Scanner sc = new Scanner(System.in);
     char op;
-    double n1, n2, res;
+    double n1, n2, res = -1;
     System.out.print("Enter 1st number: ");
     n1 = sc.nextDouble();
-    System.out.println("Enter operation:\n1. Addition\n2. Subtraction\n3. Division");
+    System.out.println("Enter operation:\n+: Addition\n-: Subtraction\n*: Multiplication\n/: Division");
     op = sc.next().charAt(0);
     System.out.print("Enter 2nd number: ");
     n2 = sc.nextDouble();
 
-    res = operate(op, n1, n2);
-    System.out.println(n1 + " " + (op >= 49 ? (char)(op * 2 - 55) : op) + " " + n2 + " = " + res);
- } 
-
-  static double operate(char op, double n1, double n2) {
-    switch (op) {
-      case '1': case '+':
-        return n1 + n2;
-      case '2': case '-':
-        return n1 - n2;
-      case '3': case '/':
-        return n1 / n2;
+   switch (op) {
+      case '+':
+        res = n1 + n2;
+        break;
+      case '-':
+        res = n1 - n2;
+        break;
+      case '*':
+        res = n1 * n2;
+        break;
+      case '/':
+        res = n1 / n2;
+        break;
       default:
         System.out.println("Invalid operation");
         System.exit(1);
     }
-    return 0;
+    System.out.println(n1 + " " + op + " " + n2 + " = " + res);
   }
 }
