@@ -1,5 +1,5 @@
 /* Program 36
-Write a program using a menu to add, subtract, multiply and divide 2 numbers.
+Write a program using a menu to add, subtract, multiply and divide 2 numbers. (with return, without arguments)
 26/2/24 */
 
 import java.util.Scanner;
