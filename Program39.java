@@ -11,6 +11,11 @@ public class Program39 {
         int l = sc.nextInt();
         System.out.print("Enter higher number: ");
         int u = sc.nextInt();
+        
+        if (l > u) {
+            System.out.println("Lower number should be less than the higher number.");
+            System.exit(1);
+        }
 
         System.out.println("Sum: " + sum(l, u));
     }
