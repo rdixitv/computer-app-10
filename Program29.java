@@ -7,8 +7,7 @@ import java.util.Scanner;
 public class Program29 {
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Enter rows: ");
-    int n = sc.nextInt();
+    int n = 3;
     String arr[][] = new String[n][n];
     int i = 0;
     for (; i < n; i++)
