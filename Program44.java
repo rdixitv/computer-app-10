@@ -28,8 +28,7 @@ public class Volume {
         double res = -1;
         switch (choice) {
             case 1:
-                int s = (int)input("Enter side length: ");
-                res = area(s);
+                res = area((int)input("Enter side length: "));
                 break;
             case 2:
                 int l = (int)input("Enter length: ");
