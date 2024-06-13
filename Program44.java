@@ -4,7 +4,7 @@ Write a program to overload the function area(). Accept values from the user and
 
 import java.util.Scanner;
 
-public class Volume {
+public class Program44 {
     static double area(int s) { // square
         return s * s;
     }
