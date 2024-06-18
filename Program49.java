@@ -7,8 +7,10 @@ import java.util.Scanner;
 public class Program49 {
     static int numSpaces(String s) {
         int c = 0;
-        for (int i = -1; i != -1 || c == 0; c++, i = s.indexOf(' ', i + 1));
-        return c - 1;
+        for (int i = 0; i < s.length(); i++) {
+            c += s.charAt(i) == ' ' ? 1 : 0;
+        }
+        return c;
     }
 
     public static void main(String args[]) {
