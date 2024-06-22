@@ -1,5 +1,5 @@
 /* Program 52
-Design a class to input a string and print each word on a seaparate line
+Design a class to input a string and print each word on a separate line
 21/06/24 */
 
 import java.util.Scanner;
