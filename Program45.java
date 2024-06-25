@@ -19,6 +19,10 @@ public class Program45 {
 
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter name: ");
+    String name = sc.next();
+    System.out.println("Enter roll number: ");
+    int rn = sc.nextInt();
     System.out.println("Enter choice\n1. Primary school\n2. Middle school\n3. High school");
     int ch = sc.nextInt();
     double res = -1; int s1, s2, s3, s4, s5;
