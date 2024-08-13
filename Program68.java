@@ -37,7 +37,7 @@ public class Telephone {
   }
 
   public void display() {
-    System.out.printf("Name of the customer\tCalls Made\tAmount to be Paid\n%s\t\t\t%d\t\t%f\n", name, call, amt);
+    System.out.printf("Name of the customer\tCalls Made\tAmount\t\tAmount to be Paid\n%s\t\t\t%d\t\t%f\t%f\n", name, call, amt, total);
   }
 
   public static void main(String args[]) {
