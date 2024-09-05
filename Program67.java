@@ -15,7 +15,7 @@ public class Increment {
   }
 
   public void calculate() {
-    basic *= basic >= 50 ? 1.2 : basic > 45 ? 1.15 : 1.1;
+    basic *= age >= 50 ? 1.2 : age > 45 ? 1.15 : 1.1;
   }
 
   public void display() {
